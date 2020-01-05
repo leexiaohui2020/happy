@@ -5,6 +5,11 @@ class HomeController extends Controller {
 
   async index() {
     const { ctx } = this;
+    await ctx.redirect('/index.html');
+  }
+
+  async cate() {
+    const { ctx } = this;
     const cate = await ctx.service.reptile.category();
     ctx.body = { cate };
   }

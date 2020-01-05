@@ -7,7 +7,6 @@ import router from './router';
 import LoadingImg from './assets/loading.png';
 import 'muse-ui/dist/muse-ui.css';
 import 'muse-ui-loading/dist/muse-ui-loading.css';
-import 'ionicons/dist/css/ionicons.min.css';
 import './style/main.less';
 
 Vue.use(MuseUI);

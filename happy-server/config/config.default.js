@@ -1,4 +1,6 @@
 'use strict';
+const path = require('path');
+
 /** @param {Egg.EggAppInfo} appInfo */
 module.exports = appInfo => {
   const config = {};
@@ -13,5 +15,9 @@ module.exports = appInfo => {
     allowMethods: 'GET,POST,PUT,DELETE',
   };
 
+  config.static = {
+    prefix: '',
+    dir: path.join(appInfo.baseDir, '../happy-client/dist'),
+  };
   return config;
 };
