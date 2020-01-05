@@ -7,9 +7,13 @@
     "declarations": true
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "egg": "^2.15.1",
     "egg-cors": "^2.2.3",
-    "egg-scripts": "^2.11.0"
+    "egg-scripts": "^2.11.0",
+    "egg-validate": "^2.0.2",
+    "iconv-lite": "^0.5.0",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "autod": "^3.0.1",
