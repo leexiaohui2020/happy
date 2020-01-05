@@ -19,5 +19,9 @@ module.exports = appInfo => {
     prefix: '',
     dir: path.join(appInfo.baseDir, '../happy-client/dist'),
   };
+
+  config.cluster = {
+    listen: { port: 7002 },
+  };
   return config;
 };
