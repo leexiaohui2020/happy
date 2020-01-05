@@ -1,0 +1,7 @@
+node_modules
+.travis.yml
+appveyor.yml
+logs
+run
+typings
+jsconfig.json
